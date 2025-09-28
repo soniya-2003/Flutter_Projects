@@ -1,0 +1,33 @@
+name: quicksplit
+description: A new Flutter project.
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase (only if you still need Auth)
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+
+  # API requests
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  change_app_package_name: ^1.1.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png   # Optional: display logo in the app
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"
